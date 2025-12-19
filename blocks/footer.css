@@ -1,0 +1,29 @@
+.footer {
+  margin-top: auto;
+}
+
+.footer__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 40px;
+  border-top: 1px solid rgba(33, 33, 33, 0.4);
+  padding-bottom: 0 0 40px;
+}
+
+.footer__text {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(33, 33, 33, 0.7);
+}
+
+@media screen and (max-width: 627px) {
+  .footer__container {
+    max-width: 320px;
+  }
+}
